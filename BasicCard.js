@@ -5,7 +5,6 @@ var BasicCard = function(front, back) {
 
 module.exports = BasicCard;
 
-
 var firstPresident = new BasicCard(
     "Who was the first president of the United States?", "George Washington");
 
@@ -15,8 +14,7 @@ console.log(firstPresident.front);
 console.log(firstPresident.back);
 
 var secondPresident = new BasicCard(
-    "who was the second president of the US?", "John Adams");
-
+    "Who was the second president of the United States?", "John Adams");
 
 // "Who was the first president of the United States?"
 console.log(secondPresident.front);
