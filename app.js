@@ -10,13 +10,12 @@ console.log(basicPresident.front);
 // "George Washington"
 console.log(basicPresident.back);
 
-
 var clozePresident = new ClozeCard(
-  "Donald Trump is the current President?", "Donald Trump");
+    "Donald Trump is the current President", "Donald Trump");
 
-//Donald Trump
-  console.log(clozePresident.cloze);
-  //Who is the current President?
-  console.log(clozePresident.fullText);
-
-  console.log(clozePresident.partial);
+//"Donald Trump"
+console.log(clozePresident.cloze);
+//"Donald Trump is the current President"
+console.log(clozePresident.fullText);
+//"... is the current president."
+console.log(clozePresident.partial);
